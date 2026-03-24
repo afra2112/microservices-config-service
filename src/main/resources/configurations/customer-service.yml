@@ -1,5 +1,5 @@
 spring:
   mongodb:
-    uri: mongodb://localhost:27017/customers
+    uri: mongodb://mongo:27017/customers
 server:
   port: 8100
