@@ -12,6 +12,7 @@ spring:
     password: 5607
     driver-class-name: org.postgresql.Driver
   jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
   Kafka:
