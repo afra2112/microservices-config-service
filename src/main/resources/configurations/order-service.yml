@@ -1,8 +1,15 @@
 spring:
+  cloud:
+    config:
+      fail-fast: true
+      retry:
+        max-attempts: 10
+        initial-interval: 3000
+        multiplier: 1.5
   datasource:
     url: jdbc:postgresql://postgres:5432/orders
     username: postgres
-    password: 1234
+    password: 5607
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
