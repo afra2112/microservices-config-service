@@ -9,7 +9,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://mongo:27017/notifications
-  Kafka:
+  kafka:
     consumer:
       bootstrap-servers: kafka:9092
       group-id: paymentGroup, orderGroup

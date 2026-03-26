@@ -17,7 +17,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-  Kafka:
+  kafka:
     producer:
       bootstrap-servers: kafka:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
