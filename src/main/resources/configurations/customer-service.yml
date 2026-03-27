@@ -6,6 +6,6 @@ spring:
       initial-interval: 3000
       multiplier: 1.5
   mongodb:
-    uri: mongodb://mongo:27017/customers
+    uri: mongodb://mongodb:27017/customers
 server:
   port: 8100
