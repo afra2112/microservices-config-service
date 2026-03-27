@@ -5,7 +5,8 @@ spring:
       max-attempts: 10
       initial-interval: 3000
       multiplier: 1.5
-  mongodb:
-    uri: mongodb://mongodb:27017/customers
+  data:
+    mongodb:
+      uri: mongodb://mongodb:27017/customers
 server:
   port: 8100
