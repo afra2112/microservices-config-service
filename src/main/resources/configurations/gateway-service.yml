@@ -1,11 +1,5 @@
 spring:
   cloud:
-    config:
-      fail-fast: true
-      retry:
-        max-attempts: 10
-        initial-interval: 3000
-        multiplier: 1.5
     gateway:
       discovery:
         locator:
