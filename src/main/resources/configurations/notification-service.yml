@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://mongo:27017/notifications
+      uri: mongodb://mongodb:27017/notifications
   kafka:
     consumer:
       bootstrap-servers: kafka:9092
