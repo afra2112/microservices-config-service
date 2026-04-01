@@ -3,7 +3,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: "http://localhost:9089/realms/micro-service"
+          issuer-uri: "http://keycloak:9089/realms/micro-service"
   cloud:
     gateway:
       discovery:
